@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, inital-scale=1.0">
+        <title>My Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="logo1.png" class="logo">404
+            There isn't a GitHub Pages site here.
+            
+            If you're trying to publish one, read the full documentation to learn how to set up GitHub Pages for your repository, organization, or user account.
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+            <!--<li><a href="#about">About</a></li>-->
+                <li><a href="#about">Skills</a></li>
+                <li><a href="#about">Experience</a></li>
+                <li><a href="#about">Projects</a></li>
+                <li><a href="#about">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <h1>Hi,I'm <span>Sindhuvyshnavi Kodakandla</span></h1>
+            <p>Graduate Student</p>
+            <h2 class="sub-title">About Me</h2>
+                        <p class="description">I am pursuing a master's degree in computer and information sciences at University of North Texas. 
+                    I am proficient in Java, C, Data Structures, CPP, and Linux, 
+                    and have experience working with various programming languages and platforms.<br>
+                    I am passionate about learning new technologies and applying them to solve real-world problems. 
+                    My goal is to make a career in the IT field, where I can use my technical knowledge and creativity 
+                    to contribute to the innovation and growth of the organization and the industry.<br>
+                    As a graduate teaching assistant at University of North Texas, 
+                    I support the faculty and students in the Computer science department, 
+                    by conducting Lab sessions, grading assignments, and providing feedback. 
+                    I also assist with research projects and collaborate with other teaching assistants and professors
+                    to enhance the learning outcomes and experience for the students.</p>
+                    </div>
+        </div>
+    </div>
+</div>
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2 about-col-1">
+                <img src="download.jpg">
+            </div>
+
+            <div class="col-md-10 about-col-2">
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('projects')">Projects</p>
+                    <p class="tab-links"onclick="opentab('education')">Education</p>
+                </div>    
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Web Technologies      :</span> HTML,CSS,React</li>
+                        <li><span>Programming Languages :</span> C,C++,JAVA,Python,JavaScript</li>
+                        <li><span>Web IDE               :</span> Eclipse,IntelliJ,Visual Studio,Anaconda,SQL Developer</li>
+                        <li><span>Cloud                 :</span> Microsoft Azure,AWS</li>
+                        <li><span>Version Control       :</span> GIT</li>
+                        <li><span>Databases             :</span> SQL,Oracle,MS Sql,MySQL</li>
+                        <li><span>Frameworks            :</span> Hibernate,SpringBoot,Spring</li>
+                        <li><span>Tool                  :</span> Maven</li>
+                        <li><span>API                   :</span> REST,SOAP</li>
+                        <li><span>Methodologies         :</span> Agile</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2023 August - Current :</span>  Graduate Teaching Assistant at University of North Texas</li>
+                        <p><span>-> </span> Provide academic support to Dr. Amar Maharjan for courses  "Operating System Design" and "Computer Science I"  by assisting in lesson
+                            planning, grading, and course administration for 300+ students.<br>
+                            <span>-> </span> Facilitate classroom discussions to reinforce course material, and clarify concepts by monitoring 3 lab sessions per week.
+                            Offer individualized assistance to students by conducting 3 office hours per week, to address questions and concerns.<br>
+                            <span>-> </span>  Collaborate with faculty to enhance instructional strategies, resulting in positive student outcomes.
+                            Receiving positive feedback from both students and faculty for dedication and effectiveness in supporting the learning process.
+                        </p>
+                        <li><span>2021 August - May 2022 :</span> Associate Software Engineer Intern at Winnou System and Services</li>
+                        <p><span>-> </span> Contributed to the development of an educational platform designed for students and teachers to streamline academic processes, including
+                            homework posting, attendance management, Sharing learning recourses, and doubt resolution.<br>
+                            <span>-> </span> Acquired knowledge of the application's architecture, including the structure of backend services, frontend components, and their interactions.<br>
+                            <span>-> </span> Engaged in collaborative development processes, including debugging sessions, and teamwork.</p>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="projects">
+                    <ul>
+                        <li><span>August 2023 - December 2023 : </span> Book Recommendation System</li>
+                        <p>Developed a system that recommends books to users based on their interests along with the top trending list of books
+                            Implemented the personalized system using collaborative filtering and content-based filtering techniques<br>
+                            Utilized Flask to create a responsive and user-friendly web interface for seamless interaction with the recommendation system.<br>
+                            <span>Technologies</span>: Python, Scikit-learn, Flask, Jupyter</p>
+                        <li><span>August 2022 - December 2022 : </span> Web Application for Refugees filing Immigration Documents in the US</li>
+                        <p>Collaborated with a cross-functional team to develop a Web application for an existing NGO clinic to file documents for Afghan refugees in the
+                            US
+                            Transformed a paper-based process into a digital platform, streamlining the filing of immigration documents and significantly improving
+                            efficiency<br>
+                            Ensured a user-friendly experience by implementing an intuitive and accessible interface, facilitating ease of use for NGO clinic staff involved in
+                            filing immigration documents.
+                            <span>Technologies</span>: Python, MySQL, HTML, CSS, JavaScript, Visual Studio, GIT
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>August 2022 - Present : </span>University of North Texas<br>Master's in Computer and Information Systems </li>
+                        <p>CGPA : 3.5/4.0</p>
+                        <li><span>August 2018 - May 2022 : </span>Kakatiya Institute of Technology and Sciences,warangal<br>Bachelor's in Electronics and Instrumentation</li>
+                        <p>CGPA : 8.16/10 </p>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-------------------contact----------------------->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <div class="social-icons">
+                    <p><i class="fa-regular fa-envelope"></i>kodakvyshu@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i> (703)-439-0295</p>
+                <p><i class="fa-brands fa-linkedin"></i>www.linkedin.com/in/sindhuvyshnavikodakandla</p>
+                </div>
+                <a href="Resume.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Enter Name" required>
+                    <input type="email" name="email" placeholder="Enter Email" required>
+                    <textarea name="Message" rows="6" placeholder="Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright <i class="fa-regular fa-copyright"></i> sindhu.</p>
+    </div>
+</div>
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");   
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script src="https://kit.fontawesome.com/b7d155aaea.js" crossorigin="anonymous"></script>
+<script>
+    var sidemeu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbx37ixFhtFwO1Je0GKVlY-cvNH8SRaVk9KyijUTXxdGkM5g50x_puYS4z1G62jVQbuIQg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg= document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+    </body>
+</html>
